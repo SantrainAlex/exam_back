@@ -3,7 +3,6 @@ package barApp.barApp.services;
 import barApp.barApp.dto.AuthResponseDTO;
 import barApp.barApp.dto.BarmakerDto;
 import barApp.barApp.models.Barmaker;
-import barApp.barApp.models.Role;
 import barApp.barApp.repositories.BarmakerRepository;
 import barApp.barApp.repositories.RoleRepository;
 import barApp.barApp.security.JWTGenerator;
@@ -15,10 +14,6 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor

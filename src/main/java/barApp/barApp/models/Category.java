@@ -1,12 +1,9 @@
 package barApp.barApp.models;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
-import java.util.List;
-import java.util.Set;
 
 
 @Entity
