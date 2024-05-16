@@ -34,7 +34,6 @@ public class BarmakerController {
 
     @PostMapping("/login")
     public ResponseEntity<AuthResponseDTO> login(@RequestBody BarmakerDto barmaker) {
-        System.out.println("signUp 1");
         return new ResponseEntity<>(barmakerService.login(barmaker), HttpStatus.OK);
     }
 

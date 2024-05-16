@@ -7,7 +7,7 @@ public class PasswordEncoderService {
     private final PasswordEncoder passwordEncoder;
 
     public PasswordEncoderService() {
-        this.passwordEncoder = new BCryptPasswordEncoder(); // Vous pouvez également utiliser d'autres implémentations, telles que Pbkdf2PasswordEncoder ou SCryptPasswordEncoder
+        this.passwordEncoder = new BCryptPasswordEncoder();
     }
 
     public String encodePassword(String password) {

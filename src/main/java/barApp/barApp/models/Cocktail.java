@@ -31,6 +31,9 @@ public class Cocktail {
     @NotBlank(message = "price L is required")
     private int taille_L_price;
 
+    @NotBlank(message = "status is required")
+    private Boolean status;
+
     @OneToMany(mappedBy = "ingredient_cocktail")
     private List<Ingredient> cocktail_ingredient;
 
